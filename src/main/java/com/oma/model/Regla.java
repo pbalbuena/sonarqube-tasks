@@ -17,7 +17,9 @@ public class Regla {
 	Long id;
 	Long id_tecnologia;
 	String codigo;
-	String tipo;
+	boolean seguridad;
+	boolean confiabilidad;
+	boolean mantenibilidad;
 	String descripcion;
 	
 	@OneToMany(mappedBy = "regla")
